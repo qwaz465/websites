@@ -1,0 +1,108 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UC Berkeley colors */
+:root {
+    --ucb-gold: #FDB515;
+    --ucb-blue: #003262;
+    --ucb-dark-blue: #001A57;
+    --ucb-white: #FFFFFF;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: var(--ucb-dark-blue);
+    line-height: 1.6;
+}
+
+/* Navigation styles */
+#nav {
+    background-color: var(--ucb-gold);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul a {
+    text-decoration: none;
+    color: var(--ucb-dark-blue);
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#nav ul a:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* Message styles */
+#msg {
+    background-color: var(--ucb-blue);
+    color: var(--ucb-white);
+    padding: 20px;
+}
+
+#msg a {
+    color: var(--ucb-gold);
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid var(--ucb-dark-blue); /* Added border */
+    background-color: var(--ucb-white); /* Added background color */
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    border: 1px solid var(--ucb-dark-blue);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: var(--ucb-gold);
+    color: var(--ucb-dark-blue);
+  }
+
+/* Ultimate and Melee styles */
+#ult, #melee {
+    padding: 20px;
+}
+
+#ult h3, #melee h3 {
+    color: var(--ucb-dark-blue);
+    margin-bottom: 10px;
+}
+
+/* OCF logo styles */
+#ocf {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+  }
+  
+  /* Disclaimer styles */
+  #disclaimer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: var(--ucb-white);
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
