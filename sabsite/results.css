@@ -77,7 +77,7 @@ table {
     background-color: var(--ucb-gold);
     color: var(--ucb-dark-blue);
   }
-
+   
 /* Ultimate and Melee styles */
 #ult, #melee, #ult_redemption {
     padding: 20px;
@@ -107,34 +107,4 @@ table {
     padding: 10px;
     text-align: center;
     font-size: 12px;
-
-    /* Ultimate Redemption styles */
-#ult_redemption {
-    padding: 20px;
-}
-
-#ult_redemption h3 {
-    color: var(--ucb-dark-blue);
-    margin-bottom: 10px;
-}
-
-#ult_redemption table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    border: 2px solid var(--ucb-dark-blue);
-    background-color: var(--ucb-white);
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-#ult_redemption th, #ult_redemption td {
-    border: 1px solid var(--ucb-dark-blue);
-    padding: 8px;
-    text-align: left;
-}
-
-#ult_redemption th {
-    background-color: var(--ucb-gold);
-    color: var(--ucb-dark-blue);
 }
